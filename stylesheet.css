@@ -1,0 +1,194 @@
+﻿
+* {
+    width: 100%;
+    margin: 0px;
+}
+
+
+/*Content and side bars*/
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+.header {
+  text-align: left;
+  color: white;
+  background-image: url("desktopBanner.png");
+  background-size: auto;
+  height: 300px;
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.socialMedia {
+    display: flex;
+    background-color: #00ffff;
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+
+
+}
+
+.socialMediaBackground {
+    background-color: #00ffff;
+    height:100px;
+}
+
+.aboutMe {
+    text-align: left;
+    padding-left: 250px;
+    padding-right: 30px;
+    padding-top: 70px;
+    font-size: 24px;
+    width: auto;
+    background-image: url("introBanner.png");
+    background-size: auto;
+    height: 500px;
+    text-overflow:ellipsis;
+}
+
+.profile {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 24px;
+    width: auto;
+    background-image: url("introBanner.png");
+    background-size: auto;
+    background-position: right;
+    height: 500px;
+    width: auto;
+}
+
+.link {
+    text-align: center;
+    font-size: 30px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color:blue;
+}
+
+a:hover {
+    color: #00ffff;
+}
+
+a:active {
+    color: blue;
+}
+
+.contact {
+    text-align: center;
+    width: 40%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+.header {
+  text-align: left;
+  color: white;
+  background-image: url("mobileBanner.png");
+  background-width: auto;
+  height: 150px;
+  font-size: 15px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.socialMedia {
+    display: flex;
+    background-color: #00ffff;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10px;
+
+
+}
+
+.socialMediaBackground {
+    background-color: #00ffff;
+    height: 60px;
+    width: 102%;
+    padding-top:10px;
+}
+
+.aboutMe {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-top: 20px;
+    font-size: 3.2vw;
+    width: auto;
+    background-image: url("mobileIntroBanner.png");
+    background-size: auto;
+    height: 140px;
+    text-overflow:ellipsis;
+}
+
+.profile {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 5px;
+    margin-top: 50px;
+    font-size: 3.2vw;
+    width: auto;
+    background-image: url("mobileIntroBanner.png");
+    background-size: auto;
+    background-position: right;
+    height: 150px;
+}
+
+.link {
+    text-align: center;
+    font-size: 18px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color:blue;
+}
+
+a:hover {
+    color: #00ffff;
+}
+
+a:active {
+    color: blue;
+}
+
+.contact {
+    text-align: center;
+    width: 90%;
+    font-size: 3.2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
